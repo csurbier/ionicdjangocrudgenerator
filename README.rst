@@ -14,7 +14,9 @@ This library will parse your models (in your model.py file) and will automatical
 * `api_urls.py` : The Django Rest framework url file.
 
 For each model the following urls will be created:
+
  url(r'^{{ model }}/$', {{ model }}ListView.as_view()),
+
  url(r'^{{ model }}/(?P<pk>[0-9A-Fa-f-]+)/$', {{ model }}DetailView.as_view()),
 
 The first url is to get or create a model
