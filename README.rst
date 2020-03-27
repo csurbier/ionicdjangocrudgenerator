@@ -54,7 +54,7 @@ Install with pip:
 
 .. code-block:: bash
 
-    $ pip install -i https://test.pypi.org/simple/ ionicdjangocrudgenerator==1.0.0
+    $ pip install -i https://test.pypi.org/simple/ionicdjangocrudgenerator==1.0.0
 
 or Clone the repo and install manually:
 
